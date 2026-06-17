@@ -37,8 +37,14 @@ a{
 
 .main{
     display: flex;
-    flex-direction: column;
-    
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap-reverse; */
+    width: 250px;
+    height: 400px;
+    border: 2px solid black;
+align-items: center;
+  
 }
 
 
@@ -48,22 +54,22 @@ a{
     background-color: red;
 }
 .cart2{
-    height: 100px;
+    height: 90px;
     width: 100px;
     background-color: rgb(255, 244, 20);
 }
 .cart3{
-    height: 100px;
+    height: 80px;
     width: 100px;
     background-color: rgb(112, 52, 175);
 }
 .cart4{
-    height: 100px;
+    height: 70px;
     width: 100px;
     background-color: rgb(215, 87, 164);
 }
 .cart5{
-    height: 100px;
+    height: 60px;
     width: 100px;
     background-color: rgb(59, 57, 178);
 }
