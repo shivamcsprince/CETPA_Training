@@ -1,0 +1,71 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+h2:first-of-type {
+    color: red;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #00cc00;
+    font-style: italic;
+}
+
+h2:nth-of-type(2) {
+    color: red;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+
+ol li:nth-child(4) {
+    text-decoration: underline;
+    font-style: italic;
+    letter-spacing: 4px;
+}
+
+ul {
+    color: rgb(98, 45, 45);
+    word-spacing: 2px;
+    letter-spacing: 4px;
+}
+
+
+.strikethrough {
+    text-decoration: line-through;
+    color: #333;
+}
+
+.highlight {
+    background-color: yellow;
+    color: black;
+}
+
+
+p, h5, h6 {
+    color: #b22222; 
+}
+
+h6 {
+    font-size: 11px;
+    font-weight: normal;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
+a {
+    background-color: yellow;
+    color: blue;
+    text-decoration: underline;
+    padding: 2px 5px;
+}
