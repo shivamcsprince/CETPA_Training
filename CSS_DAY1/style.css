@@ -13,7 +13,7 @@ p{
     letter-spacing: -2px;
     word-spacing: 20px;
 }
-
+/* 
 div{
     width: 400px;
     height: 400px;
@@ -27,9 +27,43 @@ div{
    background-size: cover;
    background-position: center;
    display: inline-block;
-}
+} */
 
 a{
     background-color:red;
     display: block;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.cart1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+.cart2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 244, 20);
+}
+.cart3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(112, 52, 175);
+}
+.cart4{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(215, 87, 164);
+}
+.cart5{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(59, 57, 178);
 }
