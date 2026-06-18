@@ -1,0 +1,55 @@
+.main{
+    /* position: absolute; */
+    background-color:yellow;
+    float: left;
+    width:200px;
+    height:200px;
+    left: 100px;
+    top: 250px;
+   z-index: 0;
+}
+
+.card1{
+    /* position: absolute; */
+    float: left;
+    background-color: red;
+    width:200px;
+    height:200px;
+    left: 200px;
+    top: 200px;
+    z-index: -1;
+}
+.card2{
+    /* position: absolute; */
+    float: left;
+    /* visibility: hidden; */
+    background-color: green;
+    width:200px;
+    height:200px;
+    left: 300px;
+    top: 150px;
+    
+    z-index: -2;
+}
+.card3{
+    /* position: absolute; */
+    /* visibility: hidden; */
+    float: left;
+    background-color: blue;
+    width:200px;
+    height:200px;
+    left: 400px;
+    top: 100px;
+    z-index: -3;
+}
+.card4{
+    /* position: absolute; */
+    /* visibility: hidden; */
+    float: left;
+    background-color: greenyellow;
+    width:200px;
+    height:200px;
+    left: 500px;
+    top: 50px;
+    z-index: -4;
+}
